@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1746626671438118}
+  m_IsPrefabAsset: 1
+--- !u!1 &1746626671438118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4405202339925864}
+  - component: {fileID: 114854173744259490}
+  - component: {fileID: 114365337682158046}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4405202339925864
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1746626671438118}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114365337682158046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1746626671438118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f0a0b69926a021419540f29ca914e1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  islandsList:
+  - {fileID: 1985930683538358, guid: 159988310a2c8ef4ca8957c6502b30c0, type: 2}
+  - {fileID: 1574836440804786, guid: 581775231bc775e4bb28f1e1f21eeb46, type: 2}
+  - {fileID: 1794727353110614, guid: ff690c968a4a85447bd1c301f73892c6, type: 2}
+  - {fileID: 1229667183995958, guid: 29458814b4fc28640b34de2132447c03, type: 2}
+  - {fileID: 1047406745332882, guid: 2d78257cb9e276e4db7a16f011a20646, type: 2}
+  - {fileID: 1037722150399794, guid: 22f0252ac7907ba498c67b472dfc8b27, type: 2}
+  - {fileID: 1797316565352354, guid: 5612494307c5ef24ca7366489d89376c, type: 2}
+--- !u!114 &114854173744259490
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1746626671438118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bf4835c63a2b9a40b93a42190da66b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  islandSpawner: {fileID: 0}
+  temperature: {fileID: 0}
+  Thermometer: {fileID: 0}
